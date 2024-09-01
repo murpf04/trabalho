@@ -1,0 +1,113 @@
+body { 
+
+	background-color: #F0F8FF;
+}
+
+ul li {
+	display: inline;
+	margin-left: 30px;
+	color: white;
+	background-color: #4B0082;
+	font-size: 18px;
+
+}
+
+ul {
+    text-align: center;
+}
+
+.menu{
+    position: fixed;
+    right: 0;
+	width: 100%;
+	top: 0px;
+	background-color: #4B0082;
+}
+
+.header{
+    right: 0;
+	width: 100%;
+	top: 50px;
+    height: 450px;
+	border: 5px dotted white;
+	background-color: #6FC276;
+    background-image: url(../trabalhovs/fundo.jpg);
+}
+
+@font-face {
+    font-family: 'Breathney';
+    src: url('Breathney Demo.ttf') format('truetype');
+}
+
+h1{
+	color: #FA8072;
+	font-style: italic;
+	font-size: 64px;
+	text-shadow: 1px 1px black;
+    text-align: center;
+    font-family: 'Breathney'
+}
+
+h1::first-letter {
+	color: #4B0082;
+}
+
+h2{
+	color: #FA8072;
+	font-style: italic;
+	font-size: 52px;
+	text-shadow: 1px 1px black;
+    padding: 0;
+    margin: 0;
+}
+
+h2::first-letter {
+	color: #4B0082;
+}
+
+h3{
+    text-align: center;
+}
+
+a.estilo:link {
+    color: red;
+}
+
+a.estilo:visited {
+    color: blue;
+}
+
+a.estilo:hover {
+    font-size: 150%;
+}
+
+
+.principal{
+	width: 100%;
+	padding: 20px;
+	margin: auto;
+}
+
+.tamanho{
+	width: 30%;
+	height: 500px;
+	border: solid 1px;
+	border-radius: 50px 5px;
+    text-align: center;
+	color: black;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 18px;
+}
+
+.espaço{
+	padding:20px
+}
+
+.cor1{
+	background-color:#CFEDD3;
+}
+
+.cor2{
+	background-color:#D8BFD8;
+}
